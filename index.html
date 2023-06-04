@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Complex UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+ </head>
+  <body>
+    <!-- navbar-section -->
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h2>Complex UI</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    
+     <!-- carousal-section -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators aria-hidden">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://media.istockphoto.com/id/1397047877/photo/main-microchip-on-the-motherboard.webp?b=1&s=170667a&w=0&k=20&c=l7cTfGjuf1-YCRMwSqazghURdKibNCd0KFnDy8G2cZU="  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light" >First slide label</h5>
+              <p class="text-light">First Slide Description</p>
+              <button type="button" class="btn btn-primary">Call to action</button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://images.unsplash.com/photo-1581092795442-d153057d8e0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbXB1dGVyJTIwZW5naW5lZXJpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-light" >Second slide label</h5>
+                <p class="text-light">Second Slide Description</p>
+              <button type="button" class="btn btn-primary">Call to action</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBlbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-light" >Third slide label</h5>
+                <p class="text-light">Third Slide Description</p>
+              <button type="button" class="btn btn-primary">Call to action</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <!-- custom css-section -->
+       <div class="container mt-4">
+        <div class="flex-div ">
+            <div class="image-description">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVjaGFuaWNhbCUyMGVuZ2luZWVyaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" width="300" height="200" alt="" />
+                </div>
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem.
+                  </p>
+                </div>
+             
+            </div>
+            <div class="image-description">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWxlY3RyaWNhbCUyMGVuZ2luZWVyaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" width="300" height="200" alt="" />
+                </div>
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem.
+                  </p>
+                </div>
+             
+            </div>
+            <div class="image-description">
+                <div class="image">
+                    <img src="https://media.istockphoto.com/id/1393775274/photo/development-in-central-london.webp?b=1&s=170667a&w=0&k=20&c=NKQG03Wcc0ocnZH4rfe_VxmiG1IOT0hlQjTMectfzMA=" width="300" height="200" alt="" />
+                </div>
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem.
+                  </p>
+                </div>
+             
+            </div>
+
+        </div>
+       
+        <!-- photo gallery using grid -->
+
+     <div class="main-div container-fluid">
+        <div class="img1 section1"><img class="grid-image" src="https://media.istockphoto.com/id/1373048506/photo/the-brooklyn-bridge-freedom-tower-and-lower-manhattan.webp?b=1&s=170667a&w=0&k=20&c=8Lsa9Zom4PN-NBYB2Ob8NmTm872OjMtJtBqoIhTgN8Q="></div>
+        <div class="img1 section2"><img class="grid-image" src="https://media.istockphoto.com/id/523693904/photo/atlanta-skyline-at-dusk.webp?b=1&s=170667a&w=0&k=20&c=D3tUXPAXu2xy9F7O62tMZr-GiXu1Zd0YvsnBRM0q1to="></div>
+        <div class="img1 section3"><img class="grid-image" src="https://media.istockphoto.com/id/472052931/photo/office-building-at-night-with-illuminated-windows.webp?b=1&s=170667a&w=0&k=20&c=gV4J6Se0UZHzFslY86E62JWpH0mNTigE_78RUPlFRgE="></div>
+        <div class="img1 section4"><img class="grid-image" src="https://media.istockphoto.com/id/1437377313/photo/aerial-view-of-bunker-hill-skyline-in-downtown-los-angeles-california-at-sunset.webp?b=1&s=170667a&w=0&k=20&c=t0A6gWjw2FEeWaBegANRBN1H7gFmSNm9cNzoVrg-xKg="></div>
+        <div class="img1 section5"><img class="grid-image" src="https://media.istockphoto.com/id/1453319272/photo/columbus-ohio-usa-skyline-on-the-scioto-river.webp?b=1&s=170667a&w=0&k=20&c=KC6iwC396OA2bqQtiECttOi6NDgpcztTgepzGZv-9f8="></div>
+        <div class="img1 section6"><img class="grid-image" src="https://media.istockphoto.com/id/1359909882/photo/aerial-panorama-of-new-york-city-skyscrapers-at-dusk.webp?b=1&s=170667a&w=0&k=20&c=Kjtwltd79ZBOmCYQqNMU43hnthM9jrHtapZwPPyPXAM="></div>
+        <div class="img1 section7"><img class="grid-image" src="https://media.istockphoto.com/id/1423338067/photo/new-york-city-manhattan-central-park-dusk-sunrise.webp?b=1&s=170667a&w=0&k=20&c=ei3dyKjIVuXfDrvPWLZKv1ERP27_lCVdPLZchbWNf_I="></div>
+        <div class="img1 section8"><img class="grid-image" src="https://media.istockphoto.com/id/1400112152/photo/london-red-buses-zooming-through-city-skyscrapers-night-street.webp?b=1&s=170667a&w=0&k=20&c=oSH7pzIN7Dv6X4gZH5LyueaTahl7ddELPhJWnc0hYZY="></div>
+        <div class="img1 section9"><img class="grid-image" src="https://media.istockphoto.com/id/1438012292/photo/aerial-bayview-ave-and-rosedale-in-autumn-toronto-canada.webp?b=1&s=170667a&w=0&k=20&c=y6ek3aILmH-WOdMmkcN27edViP1sB1v4D_hQt6DvNXs="></div>
+     </div>
+
+<!-- cards section -->
+
+        <div class="d-flex titlecard flex-lg-row flex-sm-column flex-xs-column  mt-5 p-2 justify-content-between">
+            <div class="card  mt-5 mx-auto" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1560272564-c83b66b1ad12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vdGJhbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"  width="300" height="200" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">FootBall</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Call To Action</a>
+                </div>
+              </div>
+              <div class="card mt-5 mx-auto" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1565787154274-c8d076ad34e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y3JpY2tldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"  width="300" height="200" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cricket</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Call To Action</a>
+                </div>
+              </div>
+              <div class="card mt-5 mx-auto" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1644556481721-25ccba035f5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWElMjBob2NrZXl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"  width="300" height="200" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hockey</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Call To Action</a>
+                </div>
+              </div>
+        </div>
+
+        <!-- footer section -->
+
+        <div class="row mx-auto  bg-light mt-5">
+            <div class="col-lg-3 col-sm-12 col-xs-12 text-sm-center mt-sm-5">
+                <h3 class=" text-sm-start">Useful links</h3>
+                <div class="d-flex flex-column text-start">
+                <a href="#">North India</a>
+                <a href="#">South India</a>
+                <a href="#">East India</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-xs-12 text-center mt-sm-5 ">
+                <h3 class="text-start">More links</h3>
+                <div class="d-flex flex-column text-start">
+                    <a href="#">Mumbai</a>
+                    <a href="#">Delhi</a>
+                    <a href="#">Nagpur</a>
+                    </div>
+            </div>
+            <div class="container-fluid col-lg-3 col-sm-12 col-xs-12 mt-sm-5">
+                <div class=" text-sm-start ">
+                <h2 >Contact Us</h2>
+                <p>Email-harshakk1714@gmail.com</p>
+                <p>+91-7620456789</p>
+               </div>
+            </div>
+            <div class="col-12 mt-5 ">
+                <div class="row footer">
+                 <div class="col-6 ">@Complex UI all rights reserved</div>
+                 <div class="col-6  d-flex justify-content-end"><a href="#navbar"><button class="btn btn-primary">Back to Top</button></a></div>
+                </div>
+            </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
